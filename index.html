@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Middle</title>
+</head>
+<body>
+	
+	<h1>Bikin Library JavaScript Sendiri</h1>
+	<h2>Bikin Sendiri</h2>
+	
+	<div id="box1">Ini Box 1</div>
+
+	<div id="wrapper">
+		<div class="boxes">Boxes 1</div>
+		<div class="boxes">Boxes 2</div>
+		<div class="boxes">Boxes 3</div>
+		<div class="boxes">Boxes 4</div>
+		<div class="boxes" name="kelima">Boxes 5</div>
+	</div>
+	
+<script src="js/middle.js"></script>
+<script>
+	$('.boxes').on('click', function() {
+		$(this).css('color', 'red');
+	})
+</script>
+</body>
+</html>
