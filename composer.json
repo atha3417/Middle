@@ -1,0 +1,13 @@
+{
+    "name": "atha/middle-js",
+    "description": "Just mini javaScript framework code",
+    "keywords": ["middle-js", "js", "javascript", "javascript-dom"],
+    "license": "None",
+    "authors": [
+        {
+            "name": "Atha Tsaqif",
+            "email": "atha.3417@gmail.com",
+            "homepage": "http://example.com/"
+        }
+    ]
+}
